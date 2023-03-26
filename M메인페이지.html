@@ -13,10 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: 'Archivo Black', sans-serif;">
+<body style="overflow-x: hidden; font-family: 'Archivo Black', sans-serif;">
 
      <!-- nav 생성 구간입니다. base.html 에 들어갈 nav 입니다.  -->
-  <nav style="height: 140px;" class="navbar navbar-expand-lg bg-body-light">
+  <nav style="background-color: #fff; height: 140px;" class="navbar navbar-expand-lg bg-body-light">
     <div  class="container-fluid">
       <a class="navbar-brand" href="#">
         <img style="width: 350px; margin-left: 410px;" src="/img/SH건설산업(주)_LOGO.PNG" alt="">
@@ -27,7 +27,7 @@
       <div  class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link active" aria-current="page" href="/회사소개.html">
               회사소개
             </a>
           </li>
@@ -51,7 +51,11 @@
   <!-- index.html banner 생성 구간입니다. {% block content %} 안으로 들어가야합니다. -->
   <!-- Banner -->
 <div class="card text-bg-dark">
-    <img style="height: 458px; filter: brightness(50%); background-size: cover;" src="/img/60.png" class="card-img" alt="...">
+    <img style="height: 458px; border-radius:0; filter: brightness(50%); background-size: cover;" 
+         src="/img/60.png" 
+         class="card-img" 
+         alt="banner 사진입니다"
+    >
     <div class="card-img-overlay">
         <div style="margin-top: 60px; margin-left: 90px;">
             <p style="font-size: 54px;" class="card-title">
@@ -85,9 +89,31 @@
     </div>
   </div>
 
-
-
-
+  <!-- 시공사례, 시공분야 box -->
+  <div style="background-color: #14402B;  margin-top: 10px;" class="text-center">
+    <div class="row justify-content-evenly">
+        <div class="col-4">
+            <div style="margin-top: 50px; margin-left: 100px; margin-bottom: 30px;" class="col">
+                <div style="background-color: rgba(188, 176, 176, 0.5); width: 400px; " class="card">
+                    <div style="line-height: 70px; height: 100px; border-radius: 30px;" 
+                         class="card-body">
+                      <p style="font-weight: 700; font-size: 18px;">시공사례</p>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div style="margin-top: 50px; margin-left: 60px; margin-bottom: 30px;" class="col">
+                <div style="background-color: rgba(188, 176, 176, 0.5); width: 400px; " class="card">
+                    <div style="line-height: 70px; height: 100px; border-radius: 30px;" 
+                         class="card-body">
+                         <p style="font-weight: 700; font-size: 18px;">시공분야</p>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+  </div>
 
 
 
