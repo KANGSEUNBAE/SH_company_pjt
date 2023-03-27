@@ -6,16 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main.html</title>
     <link rel="stylesheet" href="">
-    <!-- getbootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+     <!-- getbootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+     <!-- getgooglefonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body style="overflow-x: hidden; font-family: 'Archivo Black', sans-serif;">
+    <!-- nav -->
+    <nav style="background-color: #fff; height: 140px;" class="navbar navbar-expand-lg bg-body-light">
+        <div  class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img style="width: 350px; margin-left: 410px;" src="/img/SH건설산업(주)_LOGO.PNG" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div  class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/회사소개.html">
+                  회사소개
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">시공분야</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">시공실적</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">장비운영</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">커뮤니티</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- 회사 소개 작은 banner -->
+    <div>
+        <img style="position: absolute; height: 149px; width: 1920px; object-fit: cover;" src="/img/60.png" alt="">
+        <p style="margin-top: 60px; margin-left: 380px; position: absolute; font-size: 25px; font-weight: 900; color: #fff;">
+            SH건설산업 기계타설전문 홈페이지를방문해주신 여러분 진심으로 환영합니다.
+        </p>
+    </div>
 
 
 
+    <!-- 메뉴 -->
+    <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-4">
+            <div style="margin-top: 200px;">
+                <ul style=" list-style: none; margin-left: 80px; text-align: left;">
+                    <li style="text-decoration: none; margin-bottom: 30px;"><a href="/회사소개.html"><span>회사소개</span></a></li>
+                    <li style="color: #000; text-decoration: none; margin-bottom: 30px;">
+                        <a href="./회사연혁.html">회사연혁</a>
+                    </li>
+                    <li style="text-decoration: none; color: #000; text-decoration: none; margin-bottom: 30px;">
+                        <a href="./특허및인증.html">특허 및 인증</a>
+                    </li>
+                    <li style="color: #000; text-decoration: none; margin-bottom: 30px;">
+                        <a href="./오시는길.html">오시는 길</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <!-- 세로 선 보류 -->
+          <!-- <hr style="border-left : thick solid #32a1ce; height : 50px;"> -->
+
+          <div style="margin-top: 200px; margin-bottom: 500px;" class="col-sm-8">
+           <img style="width: 800px; " src="/img/지도.PNG" alt="">
+        </div>
+      </div>
+
+
+
+
+
+    <!-- footer -->
+  <!-- <footer style="width: 1800px;   height: 350px; background-color: #14402B;"> 
+    <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-8">
+            <div>
+                <img style="margin-right: 600px; margin-top: 25px; width: 300px;" src="/img/footer_logo.png" alt="">
+            </div>
+            <p style="text-align: left; font-size: 15px; color: gray; margin-left: 40px;">SH건설산업은 <br>
+                제품에 대한 최고의 품질과 <br>
+                서비스로 고객만족에 <br>
+                앞장설 것이며 고객의 고마움에 보답할 것을 약속드립니다.<br>
+            </p>
+            <p style="text-align: left; font-size: 15px; color: gray; margin-left: 40px;">
+                COPYRIGHT ⓒ SINCE 2023 에스에이치 건설산업 주식회사 . ALL RIGHTS RESERVED.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <div style="color: #fff; margin-top: 150px; font-size: 20px; text-align: left; margin-left: 30px;">
+                <p>TEL 031-234-6750</p>
+                <p>H.P 010-5340-6693</p>
+            </div>
+          </div>
+        </div>
+    </div>      
+  </footer> -->
 
     <!-- getbootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    
 </body>
 </html>
